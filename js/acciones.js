@@ -22,8 +22,8 @@ document .addEventListener ("deviceready",onDeviceReady,false);
 	   
 	   function onSuccess(position){
 		   
-		   alert('latitude:'  +position.coords.latitude  +'\n'+
-		      'Logitude:'      +position.coords.logitude    +'\n');
+		   alert('latitude:'  + position.coords.latitude  +'\n'+
+		      'Logitude:'      + position.coords.logitude    +'\n');
 	   };
 	   
 	   function onError(error){

@@ -28,7 +28,7 @@ Muestra la ubicacion del dispositivo de acuerdo al GPS y en el mapa de google ma
   <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 
    <!--plugin para geolocalizar-->
-   <plugin name="cordova-plugin-geolocatin" spec="2.4.3"/>
+   <plugin name="cordova-plugin-geolocation" spec="2.4.3"/>
    
    <!--Para accesar a paginas de internet-->
 <allow-intent href="https://*/*"/>
