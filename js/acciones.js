@@ -23,7 +23,7 @@ document .addEventListener ("deviceready",onDeviceReady,false);
 	   function onSuccess(position){
 		   
 		   alert('latitude:'  + position.coords.latitude  +'\n'+
-		      'Logitude:'      + position.coords.logitude    +'\n');
+		      'Longitude:'  + position.coords.longitude    +'\n');
 	   };
 	   
 	   function onError(error){
