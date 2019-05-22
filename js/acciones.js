@@ -13,8 +13,8 @@ document .addEventListener ("deviceready",onDeviceReady,false);
    }
    
    function getPosition(){
-	   var options ={
-		   enableHighAccuracy :true,
+	   var options = {
+		   enableHighAccuracy : true,
 		   maximumAge:3600000
 	   }
 	   
@@ -23,7 +23,7 @@ document .addEventListener ("deviceready",onDeviceReady,false);
 	   function onSuccess(position){
 		   
 		   alert('latitude:'  + position.coords.latitude  +'\n'+
-		      'Longitude:'  + position.coords.longitude    +'\n');
+		      'Longitude:'  + position.coords.longitude  +'\n');
 	   };
 	   
 	   function onError(error){
