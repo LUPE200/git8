@@ -6,7 +6,7 @@
 </head>
 <body>
 <!--Se determina la localizacion-->
-<div id='Ubicacion'></div>
+<div id='ubicacion'></div>
 <script type="text/javascript">
 if(navigator.geolocation){
 navigator.geolocation.getCurrentPosition (mostrarUbicacion);
@@ -35,7 +35,7 @@ function cargarmap(){
  mapholder.style.width ='750px';
  var myOptions={
 	 center:latlon,zoom:17,
-	 mapTypeld:google.maps.MapTypeld.ROADMAP,
+	 mapTypeId:google.maps.MapTypeId.ROADMAP,
 	 mapTypeControl :false,
 	 navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
  };
